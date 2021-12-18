@@ -1,0 +1,6 @@
+    
+  RewriteEngine On
+  RewriteRule ^(.*)/$  products-singal.php?post=$1   [QSA,L]
+  
+  RewriteCond %{HTTP_HOST} ^[^.]+\.[^.]+$
+  RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/disha/products/$1 [L,R=301]

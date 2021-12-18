@@ -1,0 +1,108 @@
+..addformfield .span4, .addformfield .span5{margin-left:30% !important;}
+.addformfield .span7{margin-left:23% !important;}
+.addformfield .span7 hr{margin: 4px 0 !important;}
+.floatr{float:right !important;}
+.floatl{float:left !important;}
+.buttons li a.active{background:#4F7298 !important; text-shadow:none !important; font-size:14px !important; color:#fff !important;}
+
+.starerror{color:#F00;}
+
+
+.msg {
+    margin-bottom: 10px;
+    padding-right: 0px;
+	padding-left:0px;
+    position: relative;
+}
+.msg p {
+    background-position: 10px 2px;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    padding: 9px 10px 9px 40px;
+}
+.msg a.close {
+    background: url('../images/close.gif') repeat scroll 0 0 transparent;
+    font-size: 0;
+    height: 34px;
+    line-height: 0;
+    position: absolute;
+    right: 36px;
+    text-indent: -4000px;
+    top: 0;
+	margin-top: -6px;
+	left:inherit !important;
+    width: 34px;
+}
+.msg-ok p {
+    background-color: #FFFAC2;
+    background-image:url('../images/msg-ok.gif');
+    border: 1px solid #DBD6A2;
+    color: #5E5C40;
+}
+
+.msgError p{
+	padding-left:5px;
+	background-repeat:no-repeat;
+    color:#F00;
+	font-size:14px;
+}
+.msgOk p{
+	padding-left:5px;
+	background-repeat:no-repeat;
+    color:#090;
+	font-size:14px;
+}
+#msgerrOk p{
+	padding: 9px 10px 9px 40px;;
+	background-repeat:no-repeat;
+    color:#090;
+	font-size:14px;
+}
+.msg-error {
+    margin-bottom: 10px;
+    padding-right: 0;
+	padding-left:0;
+    position: relative;
+}
+.msg-error p {
+	background-color: #F3C598;
+    background-image: url('../images/msg-error.gif'); background-position: 5px center;
+	background-repeat:no-repeat;
+    border: 1px solid #E8B084;
+    color: #ff0000;
+	font-size:14px;
+}
+.msg-error  a.close {
+    background: url('../images/close.gif') repeat scroll 0 0 transparent;
+    font-size: 0;
+    height: 34px;
+    line-height: 0;
+    position: absolute;
+    right: 5px;
+    text-indent: -4000px;
+	margin-top:5px;
+    top: 0;
+	opacity:1;
+	left:inherit !important;
+    width: 34px;
+}
+#msgerrOk .close, #msgOk .close {
+    background: url("../images/close.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 35px;
+    right: 8px;
+    margin-top: 0;
+    position: absolute;
+    top: 3px;
+    width: 35px;
+	opacity:0.6;
+}
+	
+label.error {
+  color: #FF0000;
+  font-style: italic;
+}
+
+input.error {
+  border: 1px dotted #FF0000;
+}
